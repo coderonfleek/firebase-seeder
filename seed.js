@@ -4,9 +4,9 @@ require("firebase/firestore");
 const users = require("./data");
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBPFlcOZ4sE3h2NpmfhtpWByGTN8Jmyb6k",
-  authDomain: "my-ionic-app-d2a1d.firebaseapp.com",
-  projectId: "my-ionic-app-d2a1d"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID"
 });
 
 const db = firebase.firestore();
